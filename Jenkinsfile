@@ -4,7 +4,7 @@ pipeline {
         // Set up the virtual environment directory
         VENV_DIR = 'venv'
         // Define the target directory for deployment
-        TARGET_DIR = '/path/to/target/directory'
+        TARGET_DIR = '/Downloads'
         // Define the name of the package for build step (e.g., a .tar.gz file)
         PACKAGE_NAME = 'flask_app_package.tar.gz'
     }
